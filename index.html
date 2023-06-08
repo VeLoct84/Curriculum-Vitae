@@ -6,37 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum Vitae | LokmanAhmad</title>
     <style>
+      html {
+        position: relative;
+        width: auto;
+        height: auto;
+        background: #67abc8;
+        border-radius: 50px;
+      }
+
       p {
+        font-size: 24px;
+        text-align: center;
         font-weight: bold;
       }
 
       img {
-        width: 15%;
-        border-radius: 50%;
-        border: 5px solid lightgrey;
-        float: left;
-        margin-right: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+
+        background: #ffffff;
+        border-radius: 130px;
+      }
+
+      #position {
+        font-family: Arial;
+        align-items: center;
+        font-size: medium;
+        width: 250px;
+        height: 70px;
+        margin-top: 39px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: lightseagreen;
+        border-radius: 20px;
       }
     </style>
   </head>
   <body>
     <div>
-      <a href="https://twitter.com/VeLoct84_man">
-        <p>@LokmanAhmad</p>
-      </a>
       <img src="./images/picProfile.jpg" alt="profile picture" />
-      <nav>
-        <a href="./pages/introduction.html">My Name</a>
-        <br />
-        <a href="./pages/exp.html">Experience</a>
-        <br />
-        <a href="./pages/contact.html">Contact</a>
-      </nav>
+      <p>
+        <a href="https://twitter.com/VeLoct84_man" target="_blank">
+          @LokmanAhmad
+        </a>
+      </p>
+      <div>
+        <p id="position"><a href="./pages/introduction.html">My Name</a></p>
+        <p id="position"><a href="./pages/exp.html">Experience</a></p>
+        <p id="position"><a href="./pages/contact.html">Contact</a></p>
+      </div>
     </div>
   </body>
 </html>
 
 <!--TODO:
-- WIP more pages and link
-- semantic 
+  - create image act like button to center
 -->
