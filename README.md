@@ -15,4 +15,4 @@
 
 ### Idea
 
-![alt text](images\html.png "idea layout and colour proposal")
+![alt text](./images/html.png "idea layout and colour proposal")
