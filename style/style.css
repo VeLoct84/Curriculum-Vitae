@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: auto;
+  height: auto;
+  background: #67abc8;
+  border-radius: 50px;
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+
+  background: #ffffff;
+  border-radius: 130px;
+}
+
+.companyName {
+  font-weight: bolder;
+}
+
+.location {
+  color: grey;
+}
