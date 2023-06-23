@@ -1,35 +1,49 @@
 * {
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
-  position: relative;
-  width: auto;
-  height: auto;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
   background: #67abc8;
-  border-radius: 50px;
 }
 
-p {
-  font-size: 24px;
-  text-align: center;
-  font-weight: bold;
+.avatar-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  width: 400px;
+  border: 1px solid blue;
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
   width: 150px;
-
-  background: #ffffff;
-  border-radius: 130px;
+  height: 150px;
 }
 
-.companyName {
-  font-weight: bolder;
+p {
+  font-family: Roboto;
+  font-size: large;
+  position: absolute;
+  width: 235px;
+  height: 50px;
+  left: 280px;
 }
 
-.location {
-  color: grey;
+.link-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100px;
+  height: auto;
+}
+
+a {
+  all: unset;
 }
