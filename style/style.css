@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+
   width: auto;
   padding: 10px;
   border: 5px dashed lightslategrey;
@@ -36,19 +36,23 @@ img:hover {
   margin: 0;
 }
 
+#address {
+  position: absolute;
+  top: 30px;
+}
+
 .link-container {
   display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
   padding: 10px;
-  background-color: black;
+  border: 5px dashed black;
 }
 
 a {
   all: unset;
   font-size: 16pt;
-  color: white;
 }
 
 a:hover {
