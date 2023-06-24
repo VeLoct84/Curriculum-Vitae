@@ -1,14 +1,13 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  font-family: Roboto;
 }
 
 body {
   margin: 0;
   display: flex;
   justify-content: flex-start;
-  gap: 20px;
-  background: #67abc8;
 }
 
 .avatar-container {
@@ -16,34 +15,44 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-
-  width: 400px;
-  border: 1px solid blue;
+  width: auto;
+  padding: 10px;
+  border: 5px dashed lightslategrey;
 }
 
 img {
-  position: relative;
   width: 150px;
   height: 150px;
+  border-radius: 70px;
+  filter: blur(3px);
 }
 
-p {
-  font-family: Roboto;
-  font-size: large;
-  position: absolute;
-  width: 235px;
-  height: 50px;
-  left: 280px;
+img:hover {
+  filter: none;
+}
+
+.name {
+  font-size: 20pt;
+  margin: 0;
 }
 
 .link-container {
   display: flex;
   flex-direction: column;
-
-  width: 100px;
+  width: auto;
   height: auto;
+  padding: 10px;
+  background-color: black;
 }
 
 a {
   all: unset;
+  font-size: 16pt;
+  color: white;
+}
+
+a:hover {
+  text-transform: uppercase;
+  text-shadow: #fc0 1px 0 10px;
+  padding: 20px;
 }
