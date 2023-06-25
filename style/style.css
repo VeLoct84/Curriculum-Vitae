@@ -12,12 +12,14 @@ body {
 
 .avatar-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 
-  width: auto;
+  margin-top: 50px;
   padding: 10px;
-  border: 5px dashed lightslategrey;
+  border: 5px solid lightslategrey;
+  border-radius: 20px 20px;
+
+  filter: drop-shadow(0 20px 20px 0 black);
 }
 
 img {
@@ -31,23 +33,40 @@ img:hover {
   filter: none;
 }
 
+.logo-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  margin-top: 100px;
+}
+
+.logo-size {
+  width: 50px;
+  height: 50px;
+}
+
 .name {
   font-size: 20pt;
   margin: 0;
 }
 
 #address {
-  position: absolute;
-  top: 30px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .link-container {
   display: flex;
-  flex-direction: column;
-  width: auto;
-  height: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
   padding: 10px;
-  border: 5px dashed black;
+  background-color: slategrey;
+  border-radius: 20px;
 }
 
 a {
@@ -59,4 +78,9 @@ a:hover {
   text-transform: uppercase;
   text-shadow: #fc0 1px 0 10px;
   padding: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
 }
