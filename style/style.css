@@ -8,6 +8,7 @@ h1 {
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 h2,
@@ -27,20 +28,39 @@ section {
   padding: 10px;
 }
 
+div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+#column {
+  flex-direction: column;
+}
+
+#bullet {
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/Checklist-Logo-PNG.png");
+  border: 1px solid black;
+  margin-top: 2.5px;
+}
+
 p {
   margin: 0;
   font-size: 12pt;
   font-family: Roboto, sans-serif;
 }
 
-article {
-  text-align: justify;
-}
-
 img {
   width: 150px;
   height: 150px;
-  border-radius: 70px;
+  border-radius: 10px;
+}
+
+.logo-icon {
+  display: flex;
+  flex-direction: column;
 }
 
 .logo-size {
@@ -48,6 +68,28 @@ img {
   height: 50px;
 }
 
+.logo-size:hover {
+  width: 100px;
+  height: 100px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#logo-layout {
+  gap: 50px;
+}
+
 .name {
   font-size: 20pt;
+}
+
+a {
+  all: unset;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  font-size: 16pt;
+  transition: 0.3s;
+  cursor: pointer;
 }
