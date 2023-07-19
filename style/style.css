@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h2,
+h3 {
+  margin: 5px 0 5px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  width: 60%;
+  max-width: 50%;
+  background-color: whitesmoke;
+  margin-bottom: 25px;
+  border-radius: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 12pt;
+  font-family: Roboto, sans-serif;
+}
+
+article {
+  text-align: justify;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 70px;
+}
+
+.logo-size {
+  width: 50px;
+  height: 50px;
+}
+
+.name {
+  font-size: 20pt;
+}
